@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+     background-color: #e6f9ff;
+    
+}
+.aboutMe_nav{
+    display: flex;
+    
+}
+
+.aboutMe_nav a{
+    text-decoration: none;
+    margin-left: 120px;
+    color: black;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    padding: 5px;
+    border-top: 1px solid #ffa31a;
+    border-bottom: 1px solid #ffa31a;
+    text-align: center;
+
+}
+.aboutMe_nav a:hover{
+    box-shadow: 0 0 8px 8px #ffa31a ;
+}
+.main_container {
+    margin-top: 200px;
+    margin-left: 200px;
+    padding-inline: 50px;
+    border-left: 1px solid #4f4f4f;
+    border-right: 1px solid #4f4f4f;
+    width: 900px;
+    height: 100vw;
+
+    
+}
+#intro-description{
+    font-size: 18px;
+}
+#intro h1{
+    font-size: 32px;
+    color: #ffa31a;
+}
+.Education{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.Education:hover {
+    cursor: pointer;
+}
+.Education h1{
+    color: #ffa31a
+}
+#downRow {
+    width: 16px;
+    height: 16px;
+    margin-left: 50px;
+
+}
+#downRow:hover{
+    cursor: pointer;
+}

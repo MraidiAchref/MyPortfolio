@@ -1,0 +1,50 @@
+.projects_nav{
+    display: flex;
+    
+    
+}
+
+.projects_nav a{
+    text-decoration: none;
+    margin-left: 120px;
+    color: black;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    padding: 5px;
+    border-top: 1px solid #ffa31a;
+    border-bottom: 1px solid #ffa31a;
+    text-align: center;
+
+}
+.projects_nav a:hover{
+    box-shadow: 0 0 8px 8px #ffa31a ;
+}
+
+body{
+    background-color: #e6f9ff;
+
+}
+#title{
+    margin:  80px 0 0 80px;
+    color: #ffa31a;
+} 
+#first_proj{
+    margin: 30px 0 0 120px;
+    padding: 30px;
+    width: 80%;
+   border:  thick double black; 
+}
+#first_proj h3{
+    margin: -45px 0 0 30px;
+    width: 450px;
+    padding-left: 20px;
+    z-index: 3;
+    background-color: #e6f9ff;
+}
+#C_appImage{
+    width: 400px;
+    height: 200px;
+    margin-left: 600px;
+}
